@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Systematic Wave | سيستماتيك ويف</title>
+  <meta name="description" content="سيستماتيك ويف — حلول برمجية، أنظمة أعمال، وذكاء اصطناعي." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="is-loading">
+
+  <!-- ============ LOADER ============ -->
+  <div class="loader" id="loader">
+    <div class="loader__orbs">
+      <span class="loader__orb loader__orb--a"></span>
+      <span class="loader__orb loader__orb--b"></span>
+    </div>
+
+    <div class="loader__mark">
+      <span class="loader__code">&lt;/&gt;</span>
+    </div>
+
+    <div class="loader__brand" dir="ltr">
+      <span class="loader__title" data-split>SYSTEMATIC</span>
+      <span class="loader__sub" data-split>WAVE</span>
+    </div>
+
+    <div class="loader__bar"><span id="loaderBar"></span></div>
+    <div class="loader__count" id="loaderCount">00%</div>
+  </div>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="nav" id="nav">
+    <a href="#home" class="nav__logo">
+      <img src="assets/logo.png" alt="Systematic Wave" />
+      <span dir="ltr">Systematic <b>Wave</b></span>
+    </a>
+
+    <nav class="nav__links">
+      <a href="#home" class="active">الرئيسية</a>
+      <a href="#about">من نحن</a>
+      <a href="#vision">رؤيتنا</a>
+      <a href="services.html">الخدمات</a>
+      <a href="products.html">المنتجات</a>
+      <a href="demos.html">الديمو</a>
+    </nav>
+
+    <a href="#contact" class="nav__cta">تواصل معنا</a>
+
+    <button class="nav__burger" id="burger" aria-label="القائمة">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero__sticky">
+      <div class="hero__bg"></div>
+
+      <!-- الكورة العلوية: ألوان اللوجو -->
+      <div class="orb orb--top" id="orbTop">
+        <div class="orb__fluid">
+          <span class="blob b1"></span>
+          <span class="blob b2"></span>
+          <span class="blob b3"></span>
+          <span class="blob b4"></span>
+        </div>
+      </div>
+
+      <!-- الكورة السفلية: تيل وأخضر -->
+      <div class="orb orb--bottom" id="orbBottom">
+        <div class="orb__fluid">
+          <span class="blob b1"></span>
+          <span class="blob b2"></span>
+          <span class="blob b3"></span>
+          <span class="blob b4"></span>
+        </div>
+      </div>
+
+      <div class="hero__content" id="heroContent">
+        <span class="chip hero-in" style="--i:0">حلول برمجية · أنظمة أعمال · ذكاء اصطناعي</span>
+        <h1 class="hero-in" style="--i:1">نصنع <span class="grad">موجة</span><br />التحوّل الرقمي</h1>
+        <p class="hero-in" style="--i:2">
+          نبني أنظمة ذكية، مواقع وتطبيقات سريعة، وحلولًا تقنية مصممة على مقاس عملك،
+          لتتحرك أعمالك بثبات النظام وقوة الموجة.
+        </p>
+        <div class="hero__btns hero-in" style="--i:3">
+          <a href="services.html" class="btn btn--primary">اكتشف خدماتنا <span>←</span></a>
+          <a href="demos.html" class="btn btn--ghost">شاهد الديمو</a>
+        </div>
+      </div>
+
+      <div class="hero__merge" id="heroMerge">
+        <span class="chip">حين يلتقي النظام بالإبداع</span>
+        <h2>فكرة واحدة…<br /><span class="grad-light">وموجة لا تتوقف</span></h2>
+      </div>
+
+      <div class="scroll-hint" id="scrollHint">
+        <span class="mouse"><i></i></span>
+        <small>مرّر للأسفل</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LAYERS ============ -->
+  <main class="layers">
+
+    <!-- Layer 1: من نحن -->
+    <section class="layer layer--about" id="about">
+      <div class="layer__inner">
+        <div class="container about">
+          <div class="about__text">
+            <span class="chip reveal">من نحن</span>
+            <h2 class="reveal">شركة برمجيات تفكّر <span class="grad">بنظام</span>،<br />وتتحرك <span class="grad">كموجة</span></h2>
+            <p class="reveal">
+              سيستماتيك ويف شركة تقنية متخصصة في تطوير المواقع والتطبيقات، وأنظمة إدارة الأعمال،
+              وحلول الذكاء الاصطناعي والأتمتة. نحوّل الأفكار المعقدة إلى أنظمة بسيطة، سريعة،
+              وقابلة للتوسع، ونرافق عملاءنا من الفكرة حتى الإطلاق وما بعده.
+            </p>
+            <div class="stats reveal">
+              <div class="stat"><b><span data-count="50">0</span>+</b><small>مشروع منجز</small></div>
+              <div class="stat"><b><span data-count="30">0</span>+</b><small>عميل يثق بنا</small></div>
+              <div class="stat"><b>24/7</b><small>دعم فني</small></div>
+            </div>
+          </div>
+
+          <div class="codecard reveal" dir="ltr">
+            <div class="codecard__bar"><i></i><i></i><i></i><span>wave.config.js</span></div>
+<pre><code><span class="k">const</span> wave = <span class="k">new</span> <span class="f">Systematic</span>({
+  vision:  <span class="s">"future-ready"</span>,
+  stack:   [<span class="s">"Web"</span>, <span class="s">"Mobile"</span>, <span class="s">"AI"</span>],
+  quality: <span class="n">100</span>,
+  support: <span class="s">"24/7"</span>,
+});
+
+wave.<span class="f">launch</span>(); <span class="c">// ride the wave</span><span class="caret"></span></code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Layer 2: الرؤية والرسالة -->
+    <section class="layer layer--vm" id="vision">
+      <div class="layer__inner">
+        <div class="container vm">
+          <div class="vm__head">
+            <span class="chip reveal">الرؤية والرسالة</span>
+            <h2 class="reveal">إلى أين نتجه… <span class="grad">ولماذا</span></h2>
+          </div>
+
+          <div class="vm__grid">
+            <article class="vm-card reveal">
+              <div class="vm-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg>
+              </div>
+              <h3>رؤيتنا</h3>
+              <p>أن نكون الشريك التقني الأول للشركات في المنطقة العربية، ونقود موجة التحول الرقمي بحلول ذكية تصنع فرقًا حقيقيًا.</p>
+            </article>
+
+            <article class="vm-card reveal">
+              <div class="vm-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/></svg>
+              </div>
+              <h3>رسالتنا</h3>
+              <p>تقديم برمجيات عالية الجودة بأسلوب منهجي واضح، تجمع بين الهندسة الدقيقة والتصميم المبدع، وتنمو مع نمو عملائنا.</p>
+            </article>
+          </div>
+
+          <div class="values reveal">
+            <span>الابتكار</span><span>الجودة</span><span>الشفافية</span><span>الالتزام</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Layer 3: استكشف -->
+    <section class="layer layer--explore" id="explore">
+      <div class="layer__inner">
+        <span class="mini-orb mini-orb--a"></span>
+        <span class="mini-orb mini-orb--b"></span>
+
+        <div class="container explore">
+          <span class="chip reveal">ماذا نقدم</span>
+          <h2 class="reveal">كل ما نقدمه… <span class="grad">جرّبه بنفسك</span></h2>
+
+          <div class="explore__grid">
+            <a href="services.html" class="explore-card reveal">
+              <em dir="ltr">01</em>
+              <h3>الخدمات</h3>
+              <p>تطوير مواقع وتطبيقات، أنظمة ERP وCRM، أتمتة وذكاء اصطناعي.</p>
+              <span class="arrow">←</span>
+            </a>
+            <a href="products.html" class="explore-card reveal">
+              <em dir="ltr">02</em>
+              <h3>المنتجات</h3>
+              <p>منتجات برمجية جاهزة قابلة للتخصيص لتسريع انطلاق عملك.</p>
+              <span class="arrow">←</span>
+            </a>
+            <a href="demos.html" class="explore-card reveal">
+              <em dir="ltr">03</em>
+              <h3>الديمو</h3>
+              <p>نسخ تجريبية حية لكل خدمة ومنتج، جرّبها قبل أن تقرر.</p>
+              <span class="arrow">←</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <p dir="ltr">© 2026 Systematic Wave</p>
+    <p>جميع الحقوق محفوظة</p>
+  </footer>
+
+  <!-- Smooth scroll (اختياري — الموقع يعمل بدونه) -->
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
